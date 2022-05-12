@@ -1,0 +1,34 @@
+.contenedor-botones {
+width: 300%;
+display: grid;
+grid-template-columns: repeat(3.1fr);
+gap: 40px;
+}
+.boton {
+    display: inline-flex;
+    align-items: center;   
+    justify-content: center;
+    width: 100px;
+    height: 80px;
+    background: 101414;
+    color: rgb(31, 27, 27);
+    font-family:  'roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 5s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow-wrap: hidden;
+    display:-moz-box;
+    margin-left: auto;
+    padding-left: right;
+}
+
+.boton:hover {
+    background: rgb(163, 33, 33);
+}
+
+

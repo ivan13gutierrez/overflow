@@ -1,0 +1,71 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+  }
+  
+  input[type=text], select {
+      width: 50%;
+      padding: 10px 20px;
+      margin: 10px 0;
+      display: inline-block;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      box-sizing: border-box
+    }
+
+    input[type=submit] {
+      width: 30%;
+      background-color: #5c8d8d;
+      color: white;
+      padding: 4px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: #086363;
+      }
+    
+      div {
+        border-radius: 15px;
+        padding: 30px 40px 67px; 
+        width: 60%;
+        background-color: rgb(38, 18, 218); 
+        background: url(https://misterkernel.com/wp-content/uploads/2019/11/Como-ocultar-la-foto-de-perfil-de-WhatsApp-selectivamente.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        background-position: center; 
+        border: 3px solid rgb(0, 0, 0);
+        
+      }
+    
+      input[type=reset] {
+        width: 10%; 
+        background-color: #579696; 
+         color: black; 
+        padding: 8px; 
+        margin: 5px; 
+        border-radius: 5px; 
+        border: none;
+      }  
+    
+      input[type=email], select{
+        width: 50%;
+        padding: 10px;
+        margin: 4px;
+        border-radius: 10px; 
+        border: none;
+        border: 2px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+      }
+      input[type=date], select{
+        width: 50%;
+        padding: 10px;
+        margin: 4px;
+        border-radius: 10px; 
+        border: none;
+        border: 2px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+       }
+      
